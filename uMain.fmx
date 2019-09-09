@@ -1,0 +1,27 @@
+object Main: TMain
+  Left = 0
+  Top = 0
+  ClientHeight = 480
+  ClientWidth = 380
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button2: TButton
+    Align = Top
+    Enabled = False
+    Size.Width = 380.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'SALE'
+    OnClick = Button2Click
+  end
+  object Text1: TText
+    Align = Top
+    Position.Y = 57.000000000000000000
+    Size.Width = 380.000000000000000000
+    Size.Height = 208.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
